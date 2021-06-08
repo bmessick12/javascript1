@@ -1,3 +1,6 @@
-let r = prompt ('Please enter the radius of a circle');
-let area = r * r Math.PI;
-alert(area)
+let person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+}
