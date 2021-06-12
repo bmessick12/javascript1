@@ -23,3 +23,33 @@ var car3 = "BMW";
 function myFunction(p1, p2) {
     return p1 * p2;   // The function returns the product of p1 and p2
   }
+  console.log (myFunction);
+
+  var i = 1;
+while(i <= 100) {    
+    document.write("<p>The number is " + i + "</p>");
+    i++;
+}
+
+var i = 1;
+do {
+    document.write("<p>The number is " + i + "</p>");
+    i++;
+}
+while(i <= 100);
+
+
+for (var x=0; x<=15; x++) {
+    if (x === 0) {
+            console.log(x +  " is even");
+    }
+    else if (x % 2 === 0) {
+            console.log(x + " is even");   
+    }
+    else {
+            console.log(x + " is odd");
+    }
+}
+
+
+
