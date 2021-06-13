@@ -5,14 +5,18 @@ function getMotto() {
 }
 
 let name = prompt("What is your Motto?");
-alert(name);
+
 
 console.log (name);
 
-function getCount() {
 
+function getCount() {
 }
+let number = prompt("How many times would you like to see your Motto?")
+alert(number)
+
+console.log (number);
 
 function printMotto() {
-    return getMotto + getCount;
+
 }
