@@ -25,3 +25,19 @@ document.write(radius + "</br>");
 var area = 3.14 * radius * radius;
 document.write("Area of circle is is: "+area);
 }
+
+
+
+
+function printMotto() {
+    let number = 0;
+    let printMotto = [];
+    
+    for (let index = 0; index < number.length; index += 1) {
+      let upperCaseName = number[index].toUpperCase();
+      printMotto.push(upperCaseName);
+    }
+    
+    console.log(printMotto)
+}
+window.alert(name);
