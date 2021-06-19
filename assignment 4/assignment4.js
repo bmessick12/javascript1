@@ -1,4 +1,4 @@
-function checkNumber(input, min, max, msg)
+function updateDOM(input, min, max, msg)
 
 {
 
@@ -39,7 +39,7 @@ function checkNumber(input, min, max, msg)
 }
 
 
-function computeField(input)
+function submitData(input)
 
 {
 
@@ -47,13 +47,13 @@ function computeField(input)
 
         input.value = "" + eval(input.value);
 
-    computeForm(input.form);
+        submitData(input.form);
 
 }
 
 
 
-function computeForm(form)
+function computeFutureValue(form)
 
 {
 
