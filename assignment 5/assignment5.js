@@ -4,7 +4,7 @@ var up = document.getElementById('GFG_UP');
         function Fun() {
             var img = document.createElement('img');
             img.src = 'basic.gif';
-            document.getElementById('body').appendChild(img);
+             document.getElementById('body').appendChild(img) .width = "500";
         } 
 
         var today = new Date();
