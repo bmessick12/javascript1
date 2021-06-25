@@ -1,3 +1,6 @@
+
+//set message error
+
 function updateDOM(input, min, max, msg)
 
 {
@@ -37,6 +40,7 @@ function updateDOM(input, min, max, msg)
     return true;
 
 }
+
 
 
 function submitData(input)
@@ -80,7 +84,7 @@ function computeFutureValue(form)
         return;
 
     }
-
+// interest rate
     document.getElementById("rate").innerHTML = "i";
 
     var i = form.interest.value;
@@ -95,7 +99,9 @@ function computeFutureValue(form)
 
     i /= 12;
 
+    
 
+// output submit
    var pow = form.principal.value;
 
     for (var j = 0; j < form.payments.value *12; j++)
@@ -107,4 +113,4 @@ function computeFutureValue(form)
         form.totalint.value = (form.fv.value - form.principal.value)
 
 }
-document.getElementById("month").innerHTML = "pow";
+document.getElementById("output").innerHTML = "pow";
